@@ -8,10 +8,17 @@
   <title>My Dev Skills!</title>
 </head>
 <body>
-  <h1>Skill #<%= skillsNum %></h1>
-  <h3><%= Skills.skill %></h3>
-  
-  <a href="/skills/<%= Skills.id %>/edit">Edit Skill</a>
+  <span>
+    <h1>Skill #<%= skillsNum %>:</h1>
+    <h3><%= Skills.skill %></h3>
+  </span> 
+  <!--Edit and Delete Skill Links:-->
+  <li>
+    <a href="/skills/<%= Skills.id %>/edit">Edit Skill</a>
+    <form action="/skills/<%= Skills.id %>?_method=DELETE" id="delete-form" method="POST">
+      <button type="submit">Delete</button>
+    </form>
+  </li>
 
 </body>
 </html>

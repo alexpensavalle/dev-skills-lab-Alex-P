@@ -7,13 +7,23 @@ a {
   color: #00B7FF;
 }
 
-#delete-form {
-  display: inline-block;
-  margin-right: 10px;
-}
+/*#delete-form {
+  background: none!important;
+  color: #00B7FF;
+  border: none;
+  padding: 0!important;
+  text-decoration: underline;
+  cursor: pointer;
+}*/
 
 #delete-form button {
-  color: red;
+  background: none!important;
+  color: #00B7FF;
+  border: none;
+  padding: 0!important;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 li {
