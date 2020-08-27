@@ -1,3 +1,4 @@
+//node stuff:
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -6,11 +7,11 @@ var logger = require('morgan');
 var methodOverride = require('method-override');
 
 var indexRouter = require('./routes/index');
-var skillsRouter = require('./routes/skills');
+var skillsRouter = require('./routes/skills');//require sets skillsRouter to module.exports object in /routes/skills
 
 var app = express();
 
-// view engine setup
+// view engine setup (express stuff)
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 

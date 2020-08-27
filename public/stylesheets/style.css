@@ -5,23 +5,16 @@ body {
 
 a {
   color: #00B7FF;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-/*#delete-form {
-  background: none!important;
-  color: #00B7FF;
-  border: none;
-  padding: 0!important;
-  text-decoration: underline;
-  cursor: pointer;
-}*/
-
+/*Makes button look like a link...so I can use the form action*/
 #delete-form button {
   background: none!important;
   color: #00B7FF;
   border: none;
   padding: 0!important;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: underline;
   cursor: pointer;
 }
